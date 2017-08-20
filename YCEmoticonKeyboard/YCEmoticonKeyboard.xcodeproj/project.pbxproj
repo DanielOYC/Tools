@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60530548DB74E21401351FF4 /* Pods_YCEmoticonKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7A33F7E5BA12A68C310BF6 /* Pods_YCEmoticonKeyboard.framework */; };
+		65A77B131F492A6100EE0A76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A77B121F492A6100EE0A76 /* AppDelegate.swift */; };
+		65A77B151F492A6100EE0A76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A77B141F492A6100EE0A76 /* ViewController.swift */; };
+		65A77B181F492A6100EE0A76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A77B161F492A6100EE0A76 /* Main.storyboard */; };
+		65A77B1A1F492A6100EE0A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A77B191F492A6100EE0A76 /* Assets.xcassets */; };
+		65A77B1D1F492A6100EE0A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A77B1B1F492A6100EE0A76 /* LaunchScreen.storyboard */; };
+		65A77B261F492B4800EE0A76 /* YCEmoticonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A77B251F492B4800EE0A76 /* YCEmoticonView.swift */; };
+		65A77B281F49305C00EE0A76 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65A77B271F49305C00EE0A76 /* Emoticons.bundle */; };
+		65A77B2B1F4931CE00EE0A76 /* YCEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A77B2A1F4931CE00EE0A76 /* YCEmoticon.swift */; };
+		65A77B2D1F49328600EE0A76 /* YCEmoticons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A77B2C1F49328600EE0A76 /* YCEmoticons.swift */; };
+		65A77B301F49335F00EE0A76 /* YCEmoticonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A77B2F1F49335F00EE0A76 /* YCEmoticonsViewModel.swift */; };
+		65A77B341F49CCAC00EE0A76 /* String+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A77B331F49CCAC00EE0A76 /* String+Emoji.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F7A33F7E5BA12A68C310BF6 /* Pods_YCEmoticonKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCEmoticonKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F57AD52E6916BFDC880DA2 /* Pods-YCEmoticonKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCEmoticonKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCEmoticonKeyboard/Pods-YCEmoticonKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		65A77B0F1F492A6100EE0A76 /* YCEmoticonKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCEmoticonKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A77B121F492A6100EE0A76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65A77B141F492A6100EE0A76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65A77B171F492A6100EE0A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65A77B191F492A6100EE0A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65A77B1C1F492A6100EE0A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65A77B1E1F492A6100EE0A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A77B251F492B4800EE0A76 /* YCEmoticonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCEmoticonView.swift; sourceTree = "<group>"; };
+		65A77B271F49305C00EE0A76 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		65A77B2A1F4931CE00EE0A76 /* YCEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCEmoticon.swift; sourceTree = "<group>"; };
+		65A77B2C1F49328600EE0A76 /* YCEmoticons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCEmoticons.swift; sourceTree = "<group>"; };
+		65A77B2F1F49335F00EE0A76 /* YCEmoticonsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCEmoticonsViewModel.swift; sourceTree = "<group>"; };
+		65A77B331F49CCAC00EE0A76 /* String+Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Emoji.swift"; sourceTree = "<group>"; };
+		AB9DA27855F12D931546C375 /* Pods-YCEmoticonKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCEmoticonKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCEmoticonKeyboard/Pods-YCEmoticonKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A77B0C1F492A6100EE0A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60530548DB74E21401351FF4 /* Pods_YCEmoticonKeyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A7CBDD2408E7D9C09E46F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52F57AD52E6916BFDC880DA2 /* Pods-YCEmoticonKeyboard.debug.xcconfig */,
+				AB9DA27855F12D931546C375 /* Pods-YCEmoticonKeyboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65A77B061F492A6100EE0A76 = {
+			isa = PBXGroup;
+			children = (
+				65A77B111F492A6100EE0A76 /* YCEmoticonKeyboard */,
+				65A77B101F492A6100EE0A76 /* Products */,
+				02A7CBDD2408E7D9C09E46F5 /* Pods */,
+				9DB35363F20EA2DB58A1AC34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65A77B101F492A6100EE0A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A77B0F1F492A6100EE0A76 /* YCEmoticonKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A77B111F492A6100EE0A76 /* YCEmoticonKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				65A77B241F492A7B00EE0A76 /* YCEmoticonView */,
+				65A77B121F492A6100EE0A76 /* AppDelegate.swift */,
+				65A77B141F492A6100EE0A76 /* ViewController.swift */,
+				65A77B161F492A6100EE0A76 /* Main.storyboard */,
+				65A77B191F492A6100EE0A76 /* Assets.xcassets */,
+				65A77B1B1F492A6100EE0A76 /* LaunchScreen.storyboard */,
+				65A77B1E1F492A6100EE0A76 /* Info.plist */,
+			);
+			path = YCEmoticonKeyboard;
+			sourceTree = "<group>";
+		};
+		65A77B241F492A7B00EE0A76 /* YCEmoticonView */ = {
+			isa = PBXGroup;
+			children = (
+				65A77B2E1F49333300EE0A76 /* ViewModel */,
+				65A77B291F4931B900EE0A76 /* Model */,
+				65A77B271F49305C00EE0A76 /* Emoticons.bundle */,
+				65A77B251F492B4800EE0A76 /* YCEmoticonView.swift */,
+			);
+			path = YCEmoticonView;
+			sourceTree = "<group>";
+		};
+		65A77B291F4931B900EE0A76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65A77B2A1F4931CE00EE0A76 /* YCEmoticon.swift */,
+				65A77B2C1F49328600EE0A76 /* YCEmoticons.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65A77B2E1F49333300EE0A76 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				65A77B2F1F49335F00EE0A76 /* YCEmoticonsViewModel.swift */,
+				65A77B331F49CCAC00EE0A76 /* String+Emoji.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9DB35363F20EA2DB58A1AC34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F7A33F7E5BA12A68C310BF6 /* Pods_YCEmoticonKeyboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A77B0E1F492A6100EE0A76 /* YCEmoticonKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A77B211F492A6100EE0A76 /* Build configuration list for PBXNativeTarget "YCEmoticonKeyboard" */;
+			buildPhases = (
+				38C2AD4D8E2B21A76D89F278 /* [CP] Check Pods Manifest.lock */,
+				65A77B0B1F492A6100EE0A76 /* Sources */,
+				65A77B0C1F492A6100EE0A76 /* Frameworks */,
+				65A77B0D1F492A6100EE0A76 /* Resources */,
+				15728CDBC433601108CC9A0C /* [CP] Embed Pods Frameworks */,
+				CAD7FD5408A001DFD45E2CAF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCEmoticonKeyboard;
+			productName = YCEmoticonKeyboard;
+			productReference = 65A77B0F1F492A6100EE0A76 /* YCEmoticonKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A77B071F492A6100EE0A76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = daniel;
+				TargetAttributes = {
+					65A77B0E1F492A6100EE0A76 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EL6V7WM4UN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65A77B0A1F492A6100EE0A76 /* Build configuration list for PBXProject "YCEmoticonKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65A77B061F492A6100EE0A76;
+			productRefGroup = 65A77B101F492A6100EE0A76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A77B0E1F492A6100EE0A76 /* YCEmoticonKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A77B0D1F492A6100EE0A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A77B1D1F492A6100EE0A76 /* LaunchScreen.storyboard in Resources */,
+				65A77B281F49305C00EE0A76 /* Emoticons.bundle in Resources */,
+				65A77B1A1F492A6100EE0A76 /* Assets.xcassets in Resources */,
+				65A77B181F492A6100EE0A76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15728CDBC433601108CC9A0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YCEmoticonKeyboard/Pods-YCEmoticonKeyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C2AD4D8E2B21A76D89F278 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD7FD5408A001DFD45E2CAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YCEmoticonKeyboard/Pods-YCEmoticonKeyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A77B0B1F492A6100EE0A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A77B261F492B4800EE0A76 /* YCEmoticonView.swift in Sources */,
+				65A77B2D1F49328600EE0A76 /* YCEmoticons.swift in Sources */,
+				65A77B301F49335F00EE0A76 /* YCEmoticonsViewModel.swift in Sources */,
+				65A77B2B1F4931CE00EE0A76 /* YCEmoticon.swift in Sources */,
+				65A77B151F492A6100EE0A76 /* ViewController.swift in Sources */,
+				65A77B131F492A6100EE0A76 /* AppDelegate.swift in Sources */,
+				65A77B341F49CCAC00EE0A76 /* String+Emoji.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65A77B161F492A6100EE0A76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A77B171F492A6100EE0A76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65A77B1B1F492A6100EE0A76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65A77B1C1F492A6100EE0A76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65A77B1F1F492A6100EE0A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65A77B201F492A6100EE0A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65A77B221F492A6100EE0A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F57AD52E6916BFDC880DA2 /* Pods-YCEmoticonKeyboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EL6V7WM4UN;
+				INFOPLIST_FILE = YCEmoticonKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.YCEmoticonKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		65A77B231F492A6100EE0A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9DA27855F12D931546C375 /* Pods-YCEmoticonKeyboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EL6V7WM4UN;
+				INFOPLIST_FILE = YCEmoticonKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.YCEmoticonKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A77B0A1F492A6100EE0A76 /* Build configuration list for PBXProject "YCEmoticonKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A77B1F1F492A6100EE0A76 /* Debug */,
+				65A77B201F492A6100EE0A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A77B211F492A6100EE0A76 /* Build configuration list for PBXNativeTarget "YCEmoticonKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A77B221F492A6100EE0A76 /* Debug */,
+				65A77B231F492A6100EE0A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A77B071F492A6100EE0A76 /* Project object */;
+}
