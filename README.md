@@ -28,3 +28,9 @@
 - 写的比较匆忙，后续再格式化代码并完善功能...
 
 ![](./Sources/emoticonView.gif)
+
+## 直播礼物粒子动画效果
+- 自定义了一个YCEmitterLayer类，继承自系统CAEmitterLayer类
+- 使用时，调用类方法`+ (instancetype)layerWithCenter:(CGPoint)center size:(CGSize)size images:(NSArray *)images`,传入相应参数，并把创建的对象添加到要显示的视图layer上即可
+
+![](./Sources/emitterLayer.gif)
