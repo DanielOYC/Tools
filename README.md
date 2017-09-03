@@ -15,6 +15,11 @@
 - `func pauseAnimation()`暂停动画
 - `func resumeAnimation()`恢复动画
 
+## 圆角／带圆环圆角图片 (UIImage的扩展) (Swift)
+- `class func circleImage(original: UIImage, clicpBounds: CGRect) -> UIImage`获得圆角图片
+- `class func circleImageWithRing(original: UIImage, clicpBounds: CGRect, ringWidth: CGFloat, ringColor: UIColor)  -> UIImage`获得带圆环的圆角图片
+
+
 # 工具类
 ## 弹框提示工具类
 - 直接调用类方法 `+(void)showAlertWithTitle:(NSString *)title message:(NSString *)message presentedBy:(id)object itemClickCallBack:(void (^)(NSString *title))callBack cancelTitle:(NSString *)cancelTitle otherTitles:(NSString *)title1,...`
