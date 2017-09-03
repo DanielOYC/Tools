@@ -10,6 +10,11 @@
 ## 设备描述 (UIDevice的扩展)
 - `+(NSString *)deviceDescription`返回设备描述字符串，如iPhone 6 Plus
 
+## layer层动画控制 (CALayer的扩展)（SWift）
+- `func startRotation()`开始旋转动画
+- `func pauseAnimation()`暂停动画
+- `func resumeAnimation()`恢复动画
+
 # 工具类
 ## 弹框提示工具类
 - 直接调用类方法 `+(void)showAlertWithTitle:(NSString *)title message:(NSString *)message presentedBy:(id)object itemClickCallBack:(void (^)(NSString *title))callBack cancelTitle:(NSString *)cancelTitle otherTitles:(NSString *)title1,...`
