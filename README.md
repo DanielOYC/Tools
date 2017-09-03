@@ -15,8 +15,6 @@
 - `func pauseAnimation()`暂停动画
 - `func resumeAnimation()`恢复动画
 
-![](./Sources/pauseAnimation.gif)
-
 # 工具类
 ## 弹框提示工具类
 - 直接调用类方法 `+(void)showAlertWithTitle:(NSString *)title message:(NSString *)message presentedBy:(id)object itemClickCallBack:(void (^)(NSString *title))callBack cancelTitle:(NSString *)cancelTitle otherTitles:(NSString *)title1,...`
