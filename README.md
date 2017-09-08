@@ -19,6 +19,11 @@
 - `class func circleImage(original: UIImage, clicpBounds: CGRect) -> UIImage`获得圆角图片
 - `class func circleImageWithRing(original: UIImage, clicpBounds: CGRect, ringWidth: CGFloat, ringColor: UIColor)  -> UIImage`获得带圆环的圆角图片
 
+## 导航栏全屏滑动返回 (UINavigationController的扩展) (runtime)
+- 使用直接拖入分类到项目即可
+- `+ (void)load`方法中使用Method Swizzling hook 导航栏的push方法
+- 自己实现的push方法中，添加pan手势，pan手势的target和acion分别为系统interactivePopGestureRecognizer手势对应的target和acion
+
 
 # 工具类
 ## 弹框提示工具类
